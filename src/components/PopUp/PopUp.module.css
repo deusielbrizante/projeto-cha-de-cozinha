@@ -1,0 +1,64 @@
+.popUp {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 55vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #d6cc8d;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-radius: 50px;
+    border: 5px solid black;
+}
+
+.insercao {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.insercao p{
+    color: red;
+    font-weight: bold;
+}
+
+.insercao input {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    width: 50%;
+    padding: 8px 12px;
+    border-radius: 50px;
+    border: 1px solid;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.botoes button {
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid;
+    font-weight: bold;
+    background-color: #fff5b4;
+}
+
+.botoes button:hover {
+    background-color: #ceb61a;
+}

@@ -1,0 +1,14 @@
+.main {
+    background-color: #F6F2E7;
+}
+
+.cards{
+    padding: 150px 0 50px;
+    margin: auto;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}

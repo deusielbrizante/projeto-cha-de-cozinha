@@ -1,0 +1,34 @@
+.container {
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    text-align: center;
+    line-height: 40px;
+    color: #9F5B4C;
+}
+
+.title {
+    padding-top: 60px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: 70px;
+    color: #9F5B4C;
+}
+
+.title p {
+    font-family: 'Open Sans', sans-serif;
+    padding: 50px 0;
+    font-size: 24px;
+}
+
+.title p:last-of-type {
+    padding-bottom: 0;
+}
