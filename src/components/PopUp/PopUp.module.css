@@ -17,7 +17,7 @@
     border: 5px solid black;
 }
 
-.insercao {
+.insertion {
     width: 100%;
     height: 200px;
     display: flex;
@@ -26,12 +26,12 @@
     justify-content: space-around;
 }
 
-.insercao p{
+.insertion p {
     color: red;
     font-weight: bold;
 }
 
-.insercao input {
+.insertion input {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 24px;
@@ -41,14 +41,14 @@
     border: 1px solid;
 }
 
-.botoes {
+.buttons {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
 }
 
-.botoes button {
+.buttons button {
     font-family: "Playfair Display", serif;
     font-size: 18px;
     width: 200px;
@@ -59,6 +59,36 @@
     background-color: #fff5b4;
 }
 
-.botoes button:hover {
+.buttons button:hover {
     background-color: #ceb61a;
+}
+
+@media screen and (max-width: 960px) {
+    .insertion input {
+        width: 70%;
+    }
+
+    .popUp h1 {
+        font-size: 24px;
+    }
+
+    .buttons {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .buttons button {
+        width: 60%;
+        height: 55px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .popUp h1 {
+        font-size: 16px;
+    }
+
+    .insertion input {
+        font-size: 16px;
+    }
 }

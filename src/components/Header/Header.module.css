@@ -32,3 +32,9 @@
 .title p:last-of-type {
     padding-bottom: 0;
 }
+
+@media screen and (max-width: 455px) {
+    .title {
+        font-size: 55px;
+    }
+}

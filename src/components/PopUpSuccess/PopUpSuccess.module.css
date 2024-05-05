@@ -19,9 +19,9 @@
 
 .heart {
     background-image: url("../../../assets/img/heart-hearts.gif");
-    background-position: center 55px;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 450px;
+    background-size: 57%;
     width: 100%;
     height: 100%;
     border-radius: 50px;
@@ -35,21 +35,22 @@
 .popUp img {
     padding-top: 20px;
     height: auto;
-    width: 30%;
+    width: 25%;
     z-index: 4;
 }
 
-.botoes {
+.buttons {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
 }
 
-.botoes button {
+.buttons button {
     font-family: "Playfair Display", serif;
     font-size: 18px;
-    width: 200px;
+    max-width: 200px;
+    width: 70%;
     height: 45px;
     border-radius: 30px;
     border: 1px solid;
@@ -58,6 +59,22 @@
     z-index: 4;
 }
 
-.botoes button:hover {
+.buttons button:hover {
     background-color: #ceb61a;
+}
+
+@media screen and (max-width:975px) {
+    .heart {
+        background-size: 90%;
+    }
+
+    .popUp img {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .heart {
+        background-position: center 55%;
+    }
 }

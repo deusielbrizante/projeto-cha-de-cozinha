@@ -30,7 +30,7 @@ import kitCabide from "../../assets/img/kit cabide.jpg"
 import jogoPratoDetalhado from "../../assets/img/jogo de prato detalhado.png"
 import jogoPratoSimples from "../../assets/img/jogo de prato simples.png"
 
-export const produtos = [
+export const products = [
     {
         id: 1,
         description: "Jogo de Talher",

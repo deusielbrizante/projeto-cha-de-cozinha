@@ -1,10 +1,10 @@
-import styles from "./Paletas.module.css"
+import styles from "./Palette.module.css"
 
-export default function Paleta() {
+export default function Palette() {
     return (
         <div className={styles.container}>
             <div className={styles.title}>
-                <h1>Paleta de<br />cores</h1>
+                <h1>Paleta de cores<br/>para os utensílios</h1>
             </div>
             <div className={styles.colors}>
                 <div className={`${styles.circles} ${styles.black}`}></div>
